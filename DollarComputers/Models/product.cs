@@ -5,7 +5,12 @@
     using System.ComponentModel.DataAnnotations;
     using System.ComponentModel.DataAnnotations.Schema;
     using System.Data.Entity.Spatial;
-
+    /*
+ * Assignment 4 Dollar Computers
+ * Georgios Psarakis
+ * December 5th 2016
+ * 200289922 
+ */
     public partial class product
     {
         public short productID { get; set; }

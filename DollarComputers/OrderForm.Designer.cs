@@ -58,27 +58,27 @@
             this.ManufacturerLabel = new System.Windows.Forms.Label();
             this.ConditionLabel = new System.Windows.Forms.Label();
             this.LineLabel = new System.Windows.Forms.Label();
+            this.WhiteBackgroundPicutreBox = new System.Windows.Forms.PictureBox();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.editToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.printToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.editToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.backToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.WhiteBackgroundPicutreBox = new System.Windows.Forms.PictureBox();
             this.ProductPictureBox = new System.Windows.Forms.PictureBox();
             this.YourPriceGroupBox = new System.Windows.Forms.GroupBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.PriceLabel = new System.Windows.Forms.Label();
-            this.SalesTaxLabel = new System.Windows.Forms.Label();
-            this.TotalLabel = new System.Windows.Forms.Label();
-            this.PriceTextBox = new System.Windows.Forms.TextBox();
-            this.SalesTaxTextBox = new System.Windows.Forms.TextBox();
             this.TotalTextBox = new System.Windows.Forms.TextBox();
+            this.SalesTaxTextBox = new System.Windows.Forms.TextBox();
+            this.PriceTextBox = new System.Windows.Forms.TextBox();
+            this.TotalLabel = new System.Windows.Forms.Label();
+            this.SalesTaxLabel = new System.Windows.Forms.Label();
+            this.PriceLabel = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.ComponentsGroupBox.SuspendLayout();
-            this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.WhiteBackgroundPicutreBox)).BeginInit();
+            this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ProductPictureBox)).BeginInit();
             this.YourPriceGroupBox.SuspendLayout();
             this.SuspendLayout();
@@ -395,6 +395,16 @@
             this.LineLabel.Size = new System.Drawing.Size(525, 2);
             this.LineLabel.TabIndex = 0;
             // 
+            // WhiteBackgroundPicutreBox
+            // 
+            this.WhiteBackgroundPicutreBox.BackColor = System.Drawing.Color.White;
+            this.WhiteBackgroundPicutreBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.WhiteBackgroundPicutreBox.Location = new System.Drawing.Point(153, 130);
+            this.WhiteBackgroundPicutreBox.Name = "WhiteBackgroundPicutreBox";
+            this.WhiteBackgroundPicutreBox.Size = new System.Drawing.Size(349, 313);
+            this.WhiteBackgroundPicutreBox.TabIndex = 29;
+            this.WhiteBackgroundPicutreBox.TabStop = false;
+            // 
             // menuStrip1
             // 
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
@@ -417,6 +427,18 @@
             this.fileToolStripMenuItem.Size = new System.Drawing.Size(44, 24);
             this.fileToolStripMenuItem.Text = "File";
             // 
+            // printToolStripMenuItem
+            // 
+            this.printToolStripMenuItem.Name = "printToolStripMenuItem";
+            this.printToolStripMenuItem.Size = new System.Drawing.Size(114, 26);
+            this.printToolStripMenuItem.Text = "Print";
+            // 
+            // exitToolStripMenuItem
+            // 
+            this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(114, 26);
+            this.exitToolStripMenuItem.Text = "Exit";
+            // 
             // editToolStripMenuItem
             // 
             this.editToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -424,6 +446,12 @@
             this.editToolStripMenuItem.Name = "editToolStripMenuItem";
             this.editToolStripMenuItem.Size = new System.Drawing.Size(47, 24);
             this.editToolStripMenuItem.Text = "Edit";
+            // 
+            // backToolStripMenuItem
+            // 
+            this.backToolStripMenuItem.Name = "backToolStripMenuItem";
+            this.backToolStripMenuItem.Size = new System.Drawing.Size(115, 26);
+            this.backToolStripMenuItem.Text = "Back";
             // 
             // helpToolStripMenuItem
             // 
@@ -433,39 +461,11 @@
             this.helpToolStripMenuItem.Size = new System.Drawing.Size(53, 24);
             this.helpToolStripMenuItem.Text = "Help";
             // 
-            // printToolStripMenuItem
-            // 
-            this.printToolStripMenuItem.Name = "printToolStripMenuItem";
-            this.printToolStripMenuItem.Size = new System.Drawing.Size(181, 26);
-            this.printToolStripMenuItem.Text = "Print";
-            // 
-            // exitToolStripMenuItem
-            // 
-            this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(181, 26);
-            this.exitToolStripMenuItem.Text = "Exit";
-            // 
-            // backToolStripMenuItem
-            // 
-            this.backToolStripMenuItem.Name = "backToolStripMenuItem";
-            this.backToolStripMenuItem.Size = new System.Drawing.Size(181, 26);
-            this.backToolStripMenuItem.Text = "Back";
-            // 
             // aboutToolStripMenuItem
             // 
             this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
-            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(181, 26);
+            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(125, 26);
             this.aboutToolStripMenuItem.Text = "About";
-            // 
-            // WhiteBackgroundPicutreBox
-            // 
-            this.WhiteBackgroundPicutreBox.BackColor = System.Drawing.Color.White;
-            this.WhiteBackgroundPicutreBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.WhiteBackgroundPicutreBox.Location = new System.Drawing.Point(153, 130);
-            this.WhiteBackgroundPicutreBox.Name = "WhiteBackgroundPicutreBox";
-            this.WhiteBackgroundPicutreBox.Size = new System.Drawing.Size(349, 313);
-            this.WhiteBackgroundPicutreBox.TabIndex = 29;
-            this.WhiteBackgroundPicutreBox.TabStop = false;
             // 
             // ProductPictureBox
             // 
@@ -491,32 +491,26 @@
             this.YourPriceGroupBox.TabStop = false;
             this.YourPriceGroupBox.Text = "Your Price";
             // 
-            // label1
+            // TotalTextBox
             // 
-            this.label1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label1.Location = new System.Drawing.Point(48, 129);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(415, 3);
-            this.label1.TabIndex = 1;
+            this.TotalTextBox.Location = new System.Drawing.Point(274, 151);
+            this.TotalTextBox.Name = "TotalTextBox";
+            this.TotalTextBox.Size = new System.Drawing.Size(186, 31);
+            this.TotalTextBox.TabIndex = 7;
             // 
-            // PriceLabel
+            // SalesTaxTextBox
             // 
-            this.PriceLabel.AutoSize = true;
-            this.PriceLabel.Location = new System.Drawing.Point(44, 43);
-            this.PriceLabel.Name = "PriceLabel";
-            this.PriceLabel.Size = new System.Drawing.Size(57, 23);
-            this.PriceLabel.TabIndex = 2;
-            this.PriceLabel.Text = "Price";
+            this.SalesTaxTextBox.Location = new System.Drawing.Point(274, 78);
+            this.SalesTaxTextBox.Name = "SalesTaxTextBox";
+            this.SalesTaxTextBox.Size = new System.Drawing.Size(186, 31);
+            this.SalesTaxTextBox.TabIndex = 6;
             // 
-            // SalesTaxLabel
+            // PriceTextBox
             // 
-            this.SalesTaxLabel.AutoSize = true;
-            this.SalesTaxLabel.Location = new System.Drawing.Point(44, 76);
-            this.SalesTaxLabel.Name = "SalesTaxLabel";
-            this.SalesTaxLabel.Size = new System.Drawing.Size(159, 23);
-            this.SalesTaxLabel.TabIndex = 3;
-            this.SalesTaxLabel.Text = "Sales Tax (13%)";
+            this.PriceTextBox.Location = new System.Drawing.Point(274, 41);
+            this.PriceTextBox.Name = "PriceTextBox";
+            this.PriceTextBox.Size = new System.Drawing.Size(186, 31);
+            this.PriceTextBox.TabIndex = 5;
             // 
             // TotalLabel
             // 
@@ -527,26 +521,32 @@
             this.TotalLabel.TabIndex = 4;
             this.TotalLabel.Text = "Total";
             // 
-            // PriceTextBox
+            // SalesTaxLabel
             // 
-            this.PriceTextBox.Location = new System.Drawing.Point(274, 41);
-            this.PriceTextBox.Name = "PriceTextBox";
-            this.PriceTextBox.Size = new System.Drawing.Size(186, 31);
-            this.PriceTextBox.TabIndex = 5;
+            this.SalesTaxLabel.AutoSize = true;
+            this.SalesTaxLabel.Location = new System.Drawing.Point(44, 76);
+            this.SalesTaxLabel.Name = "SalesTaxLabel";
+            this.SalesTaxLabel.Size = new System.Drawing.Size(159, 23);
+            this.SalesTaxLabel.TabIndex = 3;
+            this.SalesTaxLabel.Text = "Sales Tax (13%)";
             // 
-            // SalesTaxTextBox
+            // PriceLabel
             // 
-            this.SalesTaxTextBox.Location = new System.Drawing.Point(274, 78);
-            this.SalesTaxTextBox.Name = "SalesTaxTextBox";
-            this.SalesTaxTextBox.Size = new System.Drawing.Size(186, 31);
-            this.SalesTaxTextBox.TabIndex = 6;
+            this.PriceLabel.AutoSize = true;
+            this.PriceLabel.Location = new System.Drawing.Point(44, 43);
+            this.PriceLabel.Name = "PriceLabel";
+            this.PriceLabel.Size = new System.Drawing.Size(57, 23);
+            this.PriceLabel.TabIndex = 2;
+            this.PriceLabel.Text = "Price";
             // 
-            // TotalTextBox
+            // label1
             // 
-            this.TotalTextBox.Location = new System.Drawing.Point(274, 151);
-            this.TotalTextBox.Name = "TotalTextBox";
-            this.TotalTextBox.Size = new System.Drawing.Size(186, 31);
-            this.TotalTextBox.TabIndex = 7;
+            this.label1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label1.Location = new System.Drawing.Point(48, 129);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(415, 3);
+            this.label1.TabIndex = 1;
             // 
             // OrderForm
             // 
@@ -559,14 +559,15 @@
             this.Controls.Add(this.menuStrip1);
             this.Font = new System.Drawing.Font("Lucida Sans", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.MainMenuStrip = this.menuStrip1;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "OrderForm";
             this.Text = "OrderForm";
+            this.Load += new System.EventHandler(this.OrderForm_Load);
             this.ComponentsGroupBox.ResumeLayout(false);
             this.ComponentsGroupBox.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.WhiteBackgroundPicutreBox)).EndInit();
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.WhiteBackgroundPicutreBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ProductPictureBox)).EndInit();
             this.YourPriceGroupBox.ResumeLayout(false);
             this.YourPriceGroupBox.PerformLayout();

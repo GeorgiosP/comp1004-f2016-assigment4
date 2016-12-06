@@ -46,9 +46,33 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ProductInfoForm.cs">
+    <Compile Include="COMP1004DataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>COMP1004DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ComputerContext.cs" />
+    <Compile Include="Models\product.cs" />
+    <Compile Include="OrderForm.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="OrderForm.Designer.cs">
+      <DependentUpon>OrderForm.cs</DependentUpon>
+    </Compile>
+    <None Include="COMP1004DataSet.xsc">
+      <DependentUpon>COMP1004DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="COMP1004DataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>COMP1004DataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="COMP1004DataSet.xss">
+      <DependentUpon>COMP1004DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="ProductInfoForm.cs">
+      <SubType>Form</SubType>
+    </None>
     <Compile Include="ProductInfoForm.Designer.cs">
       <DependentUpon>ProductInfoForm.cs</DependentUpon>
     </Compile>
@@ -66,6 +90,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="OrderForm.resx">
+      <DependentUpon>OrderForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ProductInfoForm.resx">
       <DependentUpon>ProductInfoForm.cs</DependentUpon>
     </EmbeddedResource>

@@ -8,7 +8,12 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using DollarComputers.Models;
-
+/*
+ * Assignment 4 Dollar Computers
+ * Georgios Psarakis
+ * December 5th 2016
+ * 200289922 
+ */
 namespace DollarComputers
 {
     public partial class SelectForm : Form
